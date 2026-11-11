@@ -21,16 +21,16 @@
       var item = A.find(type, id);
       if (item) {
         root.innerHTML = A.renderDetail(item, mode);
-        document.title = item.name.en + " – " + (mode === "highlights" ? "Highlights" : "Story") + " | Travel Time Atlas";
+        document.title = item.name.en + " – " + (mode === "highlights" ? "重點篇" : "故事篇") + "｜時光旅圖";
         window.scrollTo(0, 0);
         var h = root.querySelector("h1"); if (h) h.focus({ preventScroll: true });
         return;
       }
-      root.innerHTML = '<div class="notfound"><h1>We couldn\'t find that page</h1><p>The link may be outdated.</p><a class="btn" href="#/">Back to home</a></div>';
+      root.innerHTML = '<div class="notfound"><h1>找不到這個頁面</h1><p>這個連結可能已經失效。</p><a class="btn" href="#/">回到首頁</a></div>';
       return;
     }
     root.innerHTML = A.renderHome();
-    document.title = "Travel Time Atlas – Explore History Through Travel";
+    document.title = "時光旅圖｜用旅行探索歷史";
     if (type === "places" || type === "figures") {
       var t = document.getElementById(type); if (t) t.scrollIntoView();
     } else window.scrollTo(0, 0);

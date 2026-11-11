@@ -6,79 +6,79 @@ window.Atlas = window.Atlas || {};
       id: "copernicus-science-centre",
       type: "place",
       name: { en: "Copernicus Science Centre", local: "Centrum Nauki Kopernik" },
-      country: "Poland",
-      city: "Warsaw",
-      summary: "A hands-on science museum on the Vistula riverbank, with 450+ interactive exhibits, a planetarium and a rooftop garden.",
+      country: "波蘭",
+      city: "華沙",
+      summary: "位於維斯瓦河畔的動手做科學博物館，擁有 450 件以上互動展品、一座天象館與一座屋頂花園。",
       image: "",
-      imageAlt: "The Copernicus Science Centre beside the Vistula River in Warsaw",
+      imageAlt: "華沙維斯瓦河畔的哥白尼科學中心",
 
       story: [
         {
           id: "origin",
-          heading: "An Idea for a New Kind of Museum",
-          content: "In early 2004 the Mayor of Warsaw, Lech Kaczyński, appointed a team to prepare a science centre for the city. In June 2005 an agreement formally established the Copernicus Science Centre. The City of Warsaw and two national ministries, for science and for education, stood behind it. Unlike a traditional museum of finished discoveries, it was to let visitors run experiments themselves. Even before a building existed, the Centre's first exhibition, \"Experiment!\", drew more than 10,000 people in one day at the 2006 Warsaw Science Picnic.",
+          heading: "一個新型博物館的構想",
+          content: "2004 年初，華沙市長萊赫・卡臣斯基指派一個小組，為這座城市籌備一座科學中心。2005 年 6 月，一份協議正式設立哥白尼科學中心，背後有華沙市與兩個中央部會，也就是科學部與教育部的支持。它和展示既成發現的傳統博物館不同，要讓訪客自己動手做實驗。早在建築出現之前，中心的第一個展覽「Experiment!」就在 2006 年的華沙科學野餐上，一天吸引了超過 1 萬人。",
           timelineEventIds: ["cnk-team-2004", "cnk-founding-2005", "cnk-experiment-2006"]
         },
         {
           id: "design-construction",
-          heading: "Designing a Building for the River",
-          content: "In December 2005 the architects RAr-2 of Ruda Śląska won the international design competition, working with engineers from Buro Happold. Their L-shaped, two-level building holds about 15,000 square metres of usable space and sits at the corner of Wybrzeże Kościuszkowskie and Zajęcza streets, above the Wisłostrada tunnel. A roof garden and the surrounding Discovery Park soften the transition to the riverbank. Construction followed the contract with Warbud S.A. in July 2008. One architecture source gives the building cost as 365 million PLN.",
+          heading: "為河岸設計一棟建築",
+          content: "2005 年 12 月，來自魯達希隆斯卡的 RAr-2 建築事務所贏得國際競圖，並與 Buro Happold 的工程師合作。他們設計的 L 形、兩層樓建築，擁有約 1 萬 5 千平方公尺的可用空間，位在 Wybrzeże Kościuszkowskie 與 Zajęcza 兩條街的轉角，坐落於 Wisłostrada 隧道上方。屋頂花園與周邊的探索公園，讓建築與河岸之間的過渡更柔和。2008 年 7 月與 Warbud S.A. 簽約後，工程隨即展開。有一份建築資料給出的造價為 3.65 億波蘭茲羅提。",
           timelineEventIds: ["cnk-competition-2005", "cnk-construction-2008"]
         },
         {
           id: "opening",
-          heading: "Opening in Stages, 2010–2011",
-          content: "The Centre opened on 5 November 2010 with five galleries. Over the next year it grew: the Robotic Theatre, a gallery for young adults, the Heavens of Copernicus planetarium, the Discovery Park and four laboratories followed. This staged opening is why many sources give both 2010 and 2011 as key dates. In 2011 the Centre also hosted the ECSITE conference, a major gathering of European science centres and museums.",
+          heading: "分階段開放（2010–2011）",
+          content: "中心於 2010 年 11 月 5 日以五個展廳開幕。接下來一年，園區陸續擴充：機器人劇場、青少年展廳、「哥白尼的天空」天象館、探索公園與四間實驗室相繼出現。這種分階段的開放，也是許多資料同時提到 2010 與 2011 年的原因。2011 年，中心還主辦了 ECSITE 年會，這是歐洲科學中心與博物館的重要聚會。",
           timelineEventIds: ["cnk-opening-2010", "cnk-robotic-theatre-2010", "cnk-regeneration-2011", "cnk-planetarium-2011", "cnk-discovery-park-2011", "cnk-laboratories-2011"]
         },
         {
           id: "today",
-          heading: "A Science Centre in Daily Warsaw Life",
-          content: "Today the Centre is one of Warsaw's most visited attractions, with about a million visitors a year according to its published figures. It has a place in the city's riverside cultural life alongside neighbouring landmarks in the Powiśle district. The Centre carries the name of Nicolaus Copernicus, and its planetarium shares that name, tying a modern institution to one of Poland's best-known astronomers.",
+          heading: "華沙日常生活中的科學中心",
+          content: "如今，中心是華沙參觀人數最多的景點之一，根據其公布的數字，每年約有 100 萬名訪客。它也是普維希（Powiśle）區河岸文化生活的一部分，與周邊的地標相鄰。中心以尼古拉・哥白尼命名，它的天象館也沿用這個名字，把一個現代機構與波蘭最知名的天文學家之一連結在一起。",
           timelineEventIds: []
         }
       ],
 
       highlights: {
-        introduction: "A riverside science museum in Warsaw's Powiśle district where you run the experiments yourself.",
+        introduction: "位於華沙普維希區河畔的科學博物館，在這裡實驗由你自己動手做。",
         famousFor: {
-          title: "Hands-On Science",
-          description: "Over 450 interactive exhibits invite visitors to carry out experiments and discover scientific laws on their own."
+          title: "動手做科學",
+          description: "超過 450 件互動展品，邀請訪客自己做實驗、自己發現科學定律。"
         },
         mustSee: [
           {
             id: "galleries",
-            title: "The Permanent Galleries",
-            description: "The first galleries are On the Move, Humans and the Environment, Roots of Civilization, Lightzone and Bzzz!, a gallery for preschool children. RE: generation is aimed at teenagers and young adults.",
+            title: "常設展廳",
+            description: "最初的展廳有 On the Move、Humans and the Environment、Roots of Civilization、Lightzone，以及專為學齡前兒童設計的 Bzzz!。RE: generation 則是給青少年與年輕成人。",
             image: ""
           },
           {
             id: "planetarium",
-            title: "Heavens of Copernicus Planetarium",
-            description: "A boulder-shaped building next door with a spherical projection screen. It needs its own ticket, or a combined ticket with the Centre.",
+            title: "「哥白尼的天空」天象館",
+            description: "隔壁一棟形似巨石的建築，內有球形投影螢幕。需要另外購票，或購買與中心的聯票。",
             image: ""
           },
           {
             id: "theatres",
-            title: "Robotic and High Voltage Theatres",
-            description: "Live shows: robots perform on stage in the Robotic Theatre, and the High Voltage Theatre stages dramatic electrical discharges.",
+            title: "機器人劇場與高壓電劇場",
+            description: "現場演出：機器人劇場由機器人在舞台上表演，高壓電劇場則呈現戲劇性的放電場面。",
             image: ""
           },
           {
             id: "pendulum",
-            title: "Foucault Pendulum",
-            description: "A swinging pendulum that demonstrates the rotation of the Earth, a good fit for a centre named after Copernicus.",
+            title: "傅科擺",
+            description: "一座擺動的單擺，用來展示地球自轉，很適合以哥白尼命名的中心。",
             image: ""
           },
           {
             id: "roof-garden",
-            title: "Roof Garden and Discovery Park",
-            description: "A garden on the roof with views over the Vistula and the city, and an outdoor park with experiment stations, art and an amphitheatre. Both are seasonal, so check current opening times.",
+            title: "屋頂花園與探索公園",
+            description: "屋頂上的花園可以眺望維斯瓦河與城市；戶外公園則有實驗站、藝術作品與圓形劇場。兩處都是季節性開放，請先確認最新開放時間。",
             image: ""
           }
         ],
-        didYouKnow: "The Centre's first exhibition, \"Experiment!\", appeared in 2006, four years before the building opened, and attracted over 10,000 visitors in a single day.",
-        takeaway: "At Kopernik, the visitor is the scientist."
+        didYouKnow: "中心的第一個展覽「Experiment!」在 2006 年登場，比建築開幕早了四年，一天就吸引超過 1 萬名參觀者。",
+        takeaway: "在哥白尼科學中心，參觀者就是科學家。"
       },
 
       timelineEventIds: [
