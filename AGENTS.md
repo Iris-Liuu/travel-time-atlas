@@ -870,7 +870,7 @@ Distinguish between:
 
 ### 7.4 Writing Style
 
-All user-facing website content should use clear and natural English.
+If not specified, present the website in Traditional Chinese.
 
 The writing should be:
 
